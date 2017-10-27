@@ -35,7 +35,7 @@ Seeing as the 2281 higher-order bits are all 1s followed by 2203 lower-order bit
 
 > (2^2281 - 1)(2^2203 - 1)
 
-Which is effectively its factorization. Using this we can [python script](RSA.py) obtain the private key and decrypt the ciphertext:
+Which is effectively its factorization. Using this [python script](RSA.py) we can obtain the private key and decrypt the ciphertext:
 
 Which gives us:
 
