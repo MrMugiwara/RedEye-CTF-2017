@@ -37,9 +37,9 @@ Seeing as the 2281 higher-order bits are all 1s followed by 2203 lower-order bit
 
 Which is effectively its factorization. Using this [python script](RSA.py) we can obtain the private key and decrypt the ciphertext:
 
-Which gives us:
-
 >```bash
 >$ python RSA.py
+Which gives us:
+
 ![alt tag](https://github.com/MrMugiwara/RedEye-CTF-2017/blob/master/Cryptography/RSABaby/flag.jpg)
 
